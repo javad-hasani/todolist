@@ -1,0 +1,115 @@
+/* The container element is used to position the other elements on the page. */
+.container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 20px;
+    margin: 16px;
+  }
+  
+  /* The h4 element is used to display the title of the todo list. */
+  h4 {
+    font-size: 13px;
+  }
+  
+  /* The input-container element is used to hold the input field and the button. */
+  .input-container {
+    width: 800px;
+    position: absolute;
+    top: 20px;
+    right: 600px;
+    display: flex;
+    margin: 40px;
+  }
+  
+  /* The input element is used to allow the user to enter a new todo item. */
+  .input {
+    height: 30px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 500px;
+    left: 330px;
+    position: absolute;
+    top: 20px;
+    display: flex;
+  }
+  
+  /* The button element is used to add the new todo item to the list. */
+  .btn {
+    height: 30px;
+    padding: 0 15px;
+    position: absolute;
+    left: 330px;
+    top: 20px;
+    border: none;
+    background-color: #787878;
+    color: #fff;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* The btn1 element is used to delete a todo item from the list. */
+  .btn1 {
+    background-color: #0056b3;
+    color: #fff;
+    height: 30px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* The btn and btn1 elements change color when the user hovers over them. */
+  .btn, .btn1:hover {
+    background-color: #787878;
+  }
+  
+  /* The ul-container element is used to hold the list of todo items. */
+  .ul-container {
+    position: absolute;
+    top: 200px;
+    right: 600px;
+    width: 500px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+  }
+  
+  /* The ul element is used to create a list of todo items. */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  /* The li element is used to create an individual todo item. */
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* The li:last-child selector is used to remove the bottom border from the last todo item in the list. */
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  /* The animation-container element is used to hold the animation. */
+  .animation-container {
+    margin-top: 40px;
+  }
+  
+  /* The animationData element is used to hold the animation data. */
+  .animationData {
+    max-width: 400px;
+  }
+  
