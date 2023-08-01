@@ -1,27 +1,39 @@
-# React + TypeScript + Vite
+# TodoList
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple todo list app built with React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Add, edit, and delete todo items.
+* Categorize todo items.
+* Set due dates for todo items.
+* Set priorities for todo items.
+* Track the progress of todo items.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To install the dependencies, run the following command:
 
-- Configure the top-level `parserOptions` property like this:
+Sure, here is the README text for your GitHub repo:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+# TodoList
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+A simple todo list app built with React.
+
+## Features
+
+* Add, edit, and delete todo items.
+* Categorize todo items.
+* Set due dates for todo items.
+* Set priorities for todo items.
+* Track the progress of todo items.
+
+## Getting Started
+
+To install the dependencies, run the following command:
+
+npm install
+
+To start the app, run the following command:
+
+npm run dev
