@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Lottie from "lottie-react";
 import animation from "./assets/animation_lks158i1.json";
+
 import "./Todolist.css";
 
 interface Task {
@@ -55,18 +56,22 @@ const TodoList = () => {
   // Render the component
   return (
     <div className="container">
+      
       <div className="input-container">
-        <input
-          className="input"
-          type="text"
-          placeholder="یادداشت خود را بنویسید..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-        />
-        <button className="btn" onClick={handleAddTask}>
-          اضافه کردن
+      
+      <input
+        className="input"
+        type="text"
+        placeholder="یادداشت خود را بنویسید..."
+        value={newTask}
+        onChange={(e) => setNewTask(e.target.value)}
+      />
+      <button className="btn" onClick={handleAddTask}>
+      <span className="material-symbols-outlined">
+            add_circle
+      </span>
         </button>
-      </div>
+    </div>
       <div className="ul-container">
         <ul>
           {tasks.map(task => (
@@ -76,7 +81,9 @@ const TodoList = () => {
                 className="btn1"
                 onClick={() => handleDeleteTask(task.id)}
               >
-                حذف
+               <span className="material-symbols-outlined">
+delete_sweep
+</span>
               </button>
             </li>
           ))}

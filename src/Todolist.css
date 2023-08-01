@@ -34,7 +34,15 @@
     top: 20px;
     display: flex;
   }
-  
+
+
+
+
+
+
+
+
+
   /* The button element is used to add the new todo item to the list. */
   .btn {
     height: 30px;
@@ -49,6 +57,9 @@
     margin: 5px;
     cursor: pointer;
     transition: background-color 0.2s ease;
+  }
+  .btn:hover{
+    background-color: #0056b3;
   }
   
   /* The btn1 element is used to delete a todo item from the list. */
@@ -72,13 +83,14 @@
   /* The ul-container element is used to hold the list of todo items. */
   .ul-container {
     position: absolute;
+    color: #fff;
     top: 200px;
     right: 600px;
     width: 500px;
     display: block;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(236, 236, 236, 0.215);
     border-radius: 8px;
-    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 7px 8px rgba(252, 252, 252, 0.1);
     backdrop-filter: blur(3px);
   }
   
@@ -112,4 +124,3 @@
   .animationData {
     max-width: 400px;
   }
-  
